@@ -1,0 +1,286 @@
+
+.connn{
+ 
+ display: flex !important;
+ align-items: center !important; 
+ justify-content: center !important;
+  background: rgba(255, 255, 255, 0.15);
+  flex-wrap: wrap;
+ gap: 20px !important;
+margin-right: 240px;
+width: 100% !important;
+
+
+}
+.conn {
+  width: 100% !important;
+  background-color: #F1F8E9;
+ display: flex;
+ align-items: center;
+ justify-content: center;
+
+}
+
+.card {
+ width: 400px;
+  padding: 20px;
+  height: fit-content;
+  background-color: inherit !important;
+  color: white;
+  background-color: #2e7d32 !important;
+  height: 580px;
+  border-radius: 30px;
+}
+.card1{
+    background-color: inherit;
+    width: 400px;
+    height: 600px !important;
+    
+}
+
+.main{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+   gap: 20px;
+}
+.cont{
+   display: flex;
+   flex-direction: column;
+   
+   
+}
+.cont h1{
+font-size: 15px;
+font-weight: bold;
+color: #fff;
+padding: 0 30px;
+}
+.cont p{
+    padding: 0 30px;
+    font-size: 12px;
+}
+.car3{
+    background-color: #2e7d32;
+    width: 450px;
+    height: 580px;
+   border-radius: 30px;
+}
+
+.card4{
+    width: 450px ;
+    background-color: #2e7d32;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 60px;
+    padding: 20px;
+    border-radius: 30px;
+   height: 580px;
+}
+
+.tit {
+  font-size: 15px;
+  font-weight: bold;
+  text-align: center;
+  color: white;
+  border: 1px solid white ;
+  border-radius: 2px;
+}
+.tit span{
+  color: greenyellow;
+}
+
+
+
+
+
+ table {
+       margin-top: 30px;
+      border-collapse: collapse; /* ✅ عشان الخطوط تبقى موحدة */
+      width: 300px;
+      background-color: #2e7d32;
+      text-align: center;
+      border: 2px solid #ccc;
+      margin-bottom: 30px;
+    }
+
+    th, td {
+      border: 1px solid #fff; /* ✅ خطوط بين الصفوف والأعمدة */
+      padding: 12px;
+      color: white;
+    }
+
+    th {
+      color: white;
+      font-weight: bold;
+    }
+
+    .arrow {
+      color: red;
+      font-size: 16px;
+      margin-right: 5px;
+    }
+
+    .value {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 5px;
+      font-weight: bold;
+    }
+
+.card5 {
+  width: 400px;
+  background-color: #2e7d32;
+  text-align: center;
+  height: 500px;
+  color: white;
+  font-size: 20px;
+  border-radius:30px ;
+  display: flex;
+  align-items: center;
+  
+  flex-direction: column;
+
+}
+.card5 .par{
+  display: grid;
+place-items: center;
+height: 100vh;
+}
+.card6{
+  width: 400px;
+  height: 500px;
+  background-color: #2e7d32;
+  border-radius: 30px;
+  padding: 15px;
+}
+.risk-table {
+  width: 100%;
+  
+height: fit-content;
+  text-align: center;
+  
+}
+
+.risk-table th, .risk-table td {
+  border: 1px solid #999;
+
+}
+
+.risk-table th {
+  background-color: #4caf50;
+  color: white;
+}
+
+
+.risk-table tr:hover {
+  background-color: #07e044;
+}
+
+
+
+.info{
+  background-color: #F1F8E9;
+  
+}
+.card7 {
+  width: 450px ;
+  background-color: #2e7d32;
+  border-radius: 30px;
+  padding: 20px;
+}
+.card8 {
+  background-color: #2e7d32;
+  width: 500px;
+  border-radius: 30px;
+  height: 400px;
+  padding: 20px;
+}
+
+
+.quality-card {
+  background-color: initial;
+  color: #fff;
+  border-radius: 12px;
+  padding: 20px 15px;
+  width: 450px;
+  height: 250px;
+  margin: 20px auto;
+  text-align: center;
+  font-family: "Tahoma", sans-serif;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.quality-title {
+  font-size: 17px;
+  font-weight: bold;
+  margin-bottom: 25px;
+}
+
+.quality-stats {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+.stat {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.stat-number {
+  font-size: 28px;
+  font-weight: bold;
+  color: #e59d0d;
+  line-height: 1;
+}
+
+.stat-label {
+  font-size: 13px;
+  color: #c5d1d9;
+  margin-top: 6px;
+}
+
+.quality-divider {
+  border-top: 1px solid #344155;
+  margin: 10px 0;
+}
+
+.quality-legend {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 12px 20px;
+  margin-top: 10px;
+}
+
+.legend-item {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  font-size: 12px;
+  color: #dce2ea;
+}
+
+.legend-dot {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+}
+
+.legend-text {
+  white-space: nowrap;
+}
+
+.card8 img {
+  width: 100%;
+  background-image: cover;
+  border-radius: 30px;
+}

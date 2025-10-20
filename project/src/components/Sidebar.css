@@ -1,0 +1,21 @@
+/* الشكل الأساسي */
+.sidebar .MuiDrawer-paper {
+  background-color: #2e7d32; /* اللون الافتراضي */
+  color: white;
+  transition: background-color 0.3s ease;
+}
+
+/* لما تكون مفتوحة */
+.sidebar.open .MuiDrawer-paper {
+  background-color: #4cbc50f7 !important; /* اللون اللي تختاره لما تفتح */
+}
+
+/* لما تكون مقفولة */
+.sidebar.closed .MuiDrawer-paper {
+  background-color: #2e7d32 !important; /* اللون وقت الإغلاق */
+}
+
+.icons{
+    color: #fff !important;
+}
+

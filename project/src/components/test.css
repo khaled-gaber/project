@@ -1,0 +1,52 @@
+.connn.connn{
+ 
+ display: flex !important;
+ align-items: center !important; 
+ justify-content: center !important;
+  background: rgba(255, 255, 255, 0.15);
+ 
+}
+
+.card {
+ width: 400px;
+  padding: 20px;
+  height: fit-content;
+  background-color: inherit !important;
+  color: white;
+  background-color: #2e7d32 !important;
+  
+}
+.card1{
+    background-color: inherit;
+    width: 400px;
+    height: 500px;
+}
+
+.main{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+   gap: 20px;
+}
+.cont{
+   display: flex;
+   flex-direction: column;
+   
+   
+}
+.cont h1{
+font-size: 15px;
+font-weight: bold;
+color: #fff;
+padding: 0 30px;
+}
+.cont p{
+    padding: 0 30px;
+    font-size: 12px;
+}
+.car3{
+    background-color: #2e7d32;
+    width: 400px;
+   border-radius: 30px;
+}
+
